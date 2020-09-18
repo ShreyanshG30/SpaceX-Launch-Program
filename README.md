@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Do 'npm insatall' outside the src to download all the necessary node modules.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Alternatively you  can checkout the deployed version at 'https://spacex-launch-program-a1e1c.web.app/'. 
@@ -31,4 +32,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Lighthouse Report
 
-![Lighthouse Report](/SpaceX Lighthouse Report)
+![Lighthouse Report](SpaceX Lighthouse Report)
