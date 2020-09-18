@@ -17,7 +17,7 @@ hr {
 }
 .card {
     float: left;;
-    height: 442px;
+    height: 460px;
 }
 .card-img-top {
     width: 75%;
@@ -41,10 +41,10 @@ hr {
 }
 @media only screen and (max-width:700px) {
     .card {
-        width: 45rem;
+        width: 40rem;
     }
     .filter-section{
-        width: 45rem;
+        width: 40rem;
         display: table;
     }
     .modal-tile{
@@ -52,11 +52,11 @@ hr {
         padding: 0px!important;
     }
     .card-body {
-        padding: 18px 154px;
+        padding: 18px 130px;
     }
     .card-img-top{
         width: 50%;
-        margin: 18px 154px;
+        margin: 18px 130px;
     }
 }
 
