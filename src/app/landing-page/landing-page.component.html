@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="filter-section justify-content-center col-md-2 col-sm-3">
+            <div class="font-weight-bold">Filters</div>
+            <div *ngFor="let filter of filtersArray">
+                <div class="text-center">{{filter.filterName}}</div>
+                <hr>
+                <ng-container class="justify-content-center" *ngFor="let value of filter.filterValues">
+                    <span (click)="filterClicked(filter.filterName, value)" class="filterValue btn btn-success" [ngClass]="{'selected': value == filter.selected}">
+                        {{value}}</span>
+                </ng-container>
+            </div>
+        </div>
+        <div class="modal-tile col-md-10 col-sm-9">
+            <div class="card" *ngFor="let launch of launchesList">
+                <img class="card-img-top justify-content-center" src="{{launch.image}}" alt="">
+                <div class="card-body">
+                    <div class="bold-text mission-details">{{launch.missionName}} #{{launch.flightNumber}}</div>
+                    <div class="bold-text">Mission Ids:
+                        <ul *ngFor="let id of launch.missionIds">
+                            <li class="light-text">{{id}}</li>
+                        </ul>
+                    </div>
+                    <div class="bold-text">Launch Year: <span class="light-text">{{launch.launchYear}}</span></div>
+                    <div class="bold-text">Successful Launch: <span class="light-text">{{launch.successLaunch}}</span></div>
+                    <div class="bold-text">Successful Landing: <span class="light-text">false</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,144 @@
+hr {
+    margin: 10px 18px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #c5e09a;
+    border-color: #c5e09a;
+    margin: 3px 22px;
+    padding: 3px 8px;
+}
+
+.filter-section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width:195px;
+}
+.card {
+    float: left;;
+    height: 442px;
+}
+.card-img-top {
+    width: 75%;
+    background-color: #f2f2f2;
+    margin: 14px 32px;
+    height: 206px;
+}
+.bold-text {
+    font-weight: bold;
+}
+.light-text {
+    color: #5b6fae;
+    font-weight: normal !important;
+}
+.mission-details{
+    color: #5b6fae;
+}
+.selected {
+    background-color: #7cba01;
+    border-color: #7cba01;
+}
+@media only screen and (max-width:700px) {
+    .card {
+        width: 45rem;
+    }
+    .filter-section{
+        width: 45rem;
+        display: table;
+    }
+    .modal-tile{
+        display: table;
+        padding: 0px!important;
+    }
+    .card-body {
+        padding: 18px 154px;
+    }
+    .card-img-top{
+        width: 50%;
+        margin: 18px 154px;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width:767px) {
+    .card {
+        width: 15rem;
+    }
+    .btn-success {
+        margin: 3px 14px;
+        padding: 2px 4px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:907px) {
+    .card {
+        width: 19rem;
+    }
+    .btn-success {
+        margin: 3px 2px;
+        padding: 2px 4px;
+    }
+}
+
+@media only screen and (min-width:908px) and (max-width:954px) {
+    .card {
+        width: 22rem;
+    }
+    .btn-success {
+        margin: 3px 4px;
+        padding: 2px 7px
+    }
+}
+
+@media only screen and (min-width:955px) and (max-width:1023px) {
+    .card {
+        width: 23rem;
+    }
+    .btn-success {
+        margin: 3px 6px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1146px) {
+    .card {
+        width: 12rem;
+    }
+    .btn-success {
+        margin: 3px 8px;
+    }
+}
+
+@media only screen and (min-width:1147px) and (max-width:1264px) {
+    .card {
+        width: 14rem;
+    }
+    .btn-success {
+        margin: 3px 14px;
+    }
+}
+
+@media only screen and (min-width:1242px) and (max-width:1341px) {
+    .card {
+        width: 15rem;
+    }
+    .btn-success {
+        margin: 3px 18px;
+    }
+}
+
+@media only screen and (min-width:1342px) and (max-width:1440px) {
+    .card {
+        width: 17rem;
+    }
+    .btn-success {
+        margin: 3px 18px;
+    }
+}
+
+@media only screen and (min-width:1441px) {
+    .card {
+        width: 17rem;
+    }
+    .btn-success {
+        margin: 3px 26px;
+    }
+}
