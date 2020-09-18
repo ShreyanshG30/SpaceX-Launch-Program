@@ -32,4 +32,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Lighthouse Report
 
-![Lighthouse Report](SpaceX Lighthouse Report.jpg)
+Attached Lighthouse Report for it - SpaceX Lighthouse Report.jpg.
